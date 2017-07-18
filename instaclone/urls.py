@@ -17,7 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 
 from app1.views import signup_view
+
 urlpatterns = [
     url('', signup_view)
 ]
-
